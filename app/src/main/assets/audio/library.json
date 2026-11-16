@@ -1,0 +1,51 @@
+{
+ "songs": {},
+ "lessons": [
+  {
+   "name": "تفسير القرآن",
+   "who": "الشيخ الشعراوي",
+   "episodes": [
+    {
+     "title": "خواطر - الحلقة 1",
+     "file": "https://api.spreaker.com/v2/episodes/53363267/download.mp3"
+    },
+    {
+     "title": "خواطر - الحلقة 2",
+     "file": "https://api.spreaker.com/v2/episodes/53363266/download.mp3"
+    },
+    {
+     "title": "خواطر - الحلقة 3",
+     "file": "https://api.spreaker.com/v2/episodes/53363265/download.mp3"
+    },
+    {
+     "title": "تفسير سورة الفاتحة 1",
+     "file": "https://api.spreaker.com/v2/episodes/53363215/download.mp3"
+    },
+    {
+     "title": "تفسير سورة الفاتحة 2",
+     "file": "https://api.spreaker.com/v2/episodes/53363216/download.mp3"
+    },
+    {
+     "title": "تفسير سورة الفاتحة 3",
+     "file": "https://api.spreaker.com/v2/episodes/53363217/download.mp3"
+    },
+    {
+     "title": "البقرة 1-3",
+     "file": "https://api.spreaker.com/v2/episodes/53349644/download.mp3"
+    },
+    {
+     "title": "البقرة 3-6",
+     "file": "https://api.spreaker.com/v2/episodes/53349647/download.mp3"
+    },
+    {
+     "title": "البقرة 6-8",
+     "file": "https://api.spreaker.com/v2/episodes/53349646/download.mp3"
+    },
+    {
+     "title": "البقرة 8-22",
+     "file": "https://api.spreaker.com/v2/episodes/53349645/download.mp3"
+    }
+   ]
+  }
+ ]
+}

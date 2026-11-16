@@ -1,0 +1,28 @@
+# ضع روابطك هنا. كل رابط يجب أن يكون رابطاً مباشراً لملف صوتي (ينتهي غالباً بـ .mp3).
+# السطر الذي يبدأ بعلامة # يتجاهله البرنامج.
+#
+# للأغاني: [أغاني: اسم المطرب]  ثم سطر لكل أغنية:  اسم الأغنية | الرابط
+# للدروس:  [درس: اسم السلسلة - اسم الشيخ]  ثم سطر لكل حلقة:  اسم الحلقة | الرابط
+#
+# مثال (احذف علامة # لتفعيله):
+#
+# [أغاني: فيروز]
+# زهرة المدائن | https://example.com/songs/zahrat.mp3
+# سكن الليل | https://example.com/songs/sakan.mp3
+#
+# [درس: تفسير القرآن - الشيخ الشعراوي]
+# الحلقة 1 | https://example.com/tafsir/001.mp3
+# الحلقة 2 | https://example.com/tafsir/002.mp3
+
+# ===== تفسير الشعراوي — مصدره بودكاست إسلام أون لاين (روابط مباشرة، 10 حلقات حالياً) =====
+[درس: تفسير القرآن - الشيخ الشعراوي]
+خواطر - الحلقة 1 | https://api.spreaker.com/v2/episodes/53363267/download.mp3
+خواطر - الحلقة 2 | https://api.spreaker.com/v2/episodes/53363266/download.mp3
+خواطر - الحلقة 3 | https://api.spreaker.com/v2/episodes/53363265/download.mp3
+تفسير سورة الفاتحة 1 | https://api.spreaker.com/v2/episodes/53363215/download.mp3
+تفسير سورة الفاتحة 2 | https://api.spreaker.com/v2/episodes/53363216/download.mp3
+تفسير سورة الفاتحة 3 | https://api.spreaker.com/v2/episodes/53363217/download.mp3
+البقرة 1-3 | https://api.spreaker.com/v2/episodes/53349644/download.mp3
+البقرة 3-6 | https://api.spreaker.com/v2/episodes/53349647/download.mp3
+البقرة 6-8 | https://api.spreaker.com/v2/episodes/53349646/download.mp3
+البقرة 8-22 | https://api.spreaker.com/v2/episodes/53349645/download.mp3

@@ -1,23 +1,25 @@
 # قائمة دروس العوضي (TeraBox)
 
-إليك قائمة الملفات الصوتية للأنبياء والقصص المتوفرة في المجلد[cite: 8]:
+* **رابط المجلد الشامل:** [استعراض وتحميل جميع الملفات من TeraBox](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
 
-* **يوشع بن نون.mp3** (الحجم: 22.2M)[cite: 8]
-* **يوسف.mp3** (الحجم: 33.3M)[cite: 8]
-* **موسى.mp3** (الحجم: 44.6M)[cite: 8]
-* **هود.mp3** (الحجم: 22.4M)[cite: 8]
-* **مريم بنت عمران.mp3** (الحجم: 19.9M)[cite: 8]
-* **محمد صلى الله عليه وسلم.mp3** (الحجم: 23.3M)[cite: 8]
-* **لوط.mp3** (الحجم: 22.6M)[cite: 8]
-* **قصة يونس.mp3** (الحجم: 22.8M)[cite: 8]
-* **عيسى.mp3** (الحجم: 21.8M)[cite: 8]
-* **صالح.mp3** (الحجم: 21.6M)[cite: 8]
-* **شعيب.mp3** (الحجم: 20.8M)[cite: 8]
-* **سليمان.mp3** (الحجم: 22.3M)[cite: 8]
-* **زكريا ويحيى.mp3** (الحجم: 22.3M)[cite: 8]
-* **إدريس.mp3** (الحجم: 47.1M)[cite: 8]
-* **داوود.mp3** (الحجم: 22.4M)[cite: 8]
-* **الخضر.mp3** (الحجم: 22.1M)[cite: 8]
-* **ابراهيم.mp3** (الحجم: 34.1M)[cite: 8]
-* **آدم.mp3** (الحجم: 46.3M)[cite: 8]
-* **أيوب.mp3** (الحجم: 22.2M)[cite: 8]
+### قائمة الحلقات الصوتية:
+
+1. **يوشع بن نون.mp3** (22.2MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+2. **يوسف.mp3** (33.3MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+3. **موسى.mp3** (44.6MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+4. **هود.mp3** (22.4MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+5. **مريم بنت عمران.mp3** (19.9MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+6. **محمد صلى الله عليه وسلم.mp3** (23.3MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+7. **لوط.mp3** (22.6MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+8. **قصة يونس.mp3** (22.8MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+9. **عيسى.mp3** (21.8MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+10. **صالح.mp3** (21.6MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+11. **شعيب.mp3** (20.8MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+12. **سليمان.mp3** (22.3MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+13. **زكريا ويحيى.mp3** (22.3MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+14. **ادريس.mp3** (47.1MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+15. **الخضر.mp3** (22.1MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+16. **داوود.mp3** (22.4MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+17. **ابراهيم.mp3** (34.1MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+18. **آدم.mp3** (46.3MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)
+19. **أيوب.mp3** (22.2MB) - [رابط الملف المباشر](https://1024terabox.com/s/1a_6n_aiTPC7vobcNML0PFQ)

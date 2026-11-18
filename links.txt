@@ -1,20 +1,4 @@
-# ضع روابطك هنا. كل رابط يجب أن يكون رابطاً مباشراً لملف صوتي (ينتهي غالباً بـ .mp3).
-# السطر الذي يبدأ بعلامة # يتجاهله البرنامج.
-#
-# للأغاني: [أغاني: اسم المطرب]  ثم سطر لكل أغنية:  اسم الأغنية | الرابط
-# للدروس:  [درس: اسم السلسلة - اسم الشيخ]  ثم سطر لكل حلقة:  اسم الحلقة | الرابط
-#
-# مثال (احذف علامة # لتفعيله):
-#
-# [أغاني: فيروز]
-# زهرة المدائن | https://example.com/songs/zahrat.mp3
-# سكن الليل | https://example.com/songs/sakan.mp3
-#
-# [درس: تفسير القرآن - الشيخ الشعراوي]
-# الحلقة 1 | https://example.com/tafsir/001.mp3
-# الحلقة 2 | https://example.com/tafsir/002.mp3
-
-# ===== تفسير الشعراوي — مصدره بودكاست إسلام أون لاين (روابط مباشرة، 10 حلقات حالياً) =====
+# ===== الدروس والمحاضرات =====
 [درس: تفسير القرآن - الشيخ الشعراوي]
 خواطر - الحلقة 1 | https://api.spreaker.com/v2/episodes/53363267/download.mp3
 خواطر - الحلقة 2 | https://api.spreaker.com/v2/episodes/53363266/download.mp3
@@ -27,6 +11,378 @@
 البقرة 6-8 | https://api.spreaker.com/v2/episodes/53349646/download.mp3
 البقرة 8-22 | https://api.spreaker.com/v2/episodes/53349645/download.mp3
 
-# ===== الأغاني من Archive.org (المطرب: حبيبتي من تكون) =====
-[أغاني: حبيبتي من تكون]
+[درس: العوضي - قصص الأنبياء]
+آدم | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%A2%D8%AF%D9%85.mp3
+أيوب | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%A3%D9%8A%D9%88%D8%A8.mp3
+إبراهيم | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%D9%8A%D9%85.mp3
+إدريس | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%A7%D8%AF%D8%B1%D9%8A%D8%B3.mp3
+الخضر | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%A7%D9%84%D8%AE%D8%B6%D8%B1.mp3
+داوود | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%AF%D8%A7%D9%88%D9%88%D8%AF.mp3
+زكريا ويحيى | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%B2%D9%83%D8%B1%D9%8A%D8%A7%20%D9%88%D9%8A%D8%AD%D9%8A%D9%89.mp3
+سليمان | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86.mp3
+شعيب | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%B4%D8%B9%D9%8A%D8%A8.mp3
+صالح | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%B5%D8%A7%D9%84%D8%AD.mp3
+عيسى | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D8%B9%D9%8A%D8%B3%D9%89.mp3
+قصة يونس | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D9%82%D8%B5%D8%A9%20%D9%8A%D9%88%D9%86%D8%B3%20.mp3
+لوط | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D9%84%D9%88%D8%B7.mp3
+محمد صلى الله عليه وسلم | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D9%85%D8%AD%D9%85%D8%AF%20%D8%B5%D9%84%D9%89%20%D8%A7%D9%84%D9%84%D9%87%20%D8%B9%D9%84%D9%8A%D9%87%20%D9%88%D8%B3%D9%84%D9%85.mp3
+مريم بنت عمران | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D9%85%D8%B1%D9%8A%D9%85%20%D8%A8%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1%D8%A7%D9%86.mp3
+موسى | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D9%85%D9%88%D8%B3%D9%89.mp3
+هود | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D9%87%D9%88%D8%AF.mp3
+يوسف | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D9%8A%D9%88%D8%B3%D9%81.mp3
+يوشع بن نون | https://archive.org/download/20261117_20261117_0828/%D8%A7%D9%84%D8%B9%D9%88%D8%B6%D9%8A%20-%D9%8A%D9%88%D8%B4%D8%B9%20%D8%A8%D9%86%20%D9%86%D9%88%D9%86.mp3
+
+[درس: الرقية الشرعية - نخبة من القراء]
+الرقية الشرعية كاملة - الشيخ إدريس أبكر | https://archive.org/download/RuqyahShariahRuqyaTreatment/Al%20Ruqyah%20Al%20Shariah%20Full%20by%20Sheikh%20Idrees%20Abkar.mp3
+آيات سكينة - الأنعام 13 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20En'am%2013.mp3
+آيات سكينة - الأنعام 96 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20En'am%2096.mp3
+آيات سكينة - الرعد 28 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20ar-rad%2028.mp3
+آيات سكينة - الفتح 4 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20fet'h%204.mp3
+آيات سكينة - فصلت 44 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20fusilet%2044.mp3
+آيات سكينة - الإسراء 82 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20isra%2082.mp3
+آيات سكينة - يونس 67 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20junus%2067.mp3
+آيات سكينة - الشعراء 80 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20shuara%2080.mp3
+آيات سكينة - التوبة 26 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20teube%2026.mp3
+آيات سكينة - التوبة 57 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ayat%20sakinah%20-%20teube%2057.mp3
+الآيات المشهورة - الاستعاذة والبسملة | https://archive.org/download/RuqyahShariahRuqyaTreatment/Famous%20Ayats%20-%200.%20Eaudhu%20Besmelah.mp3
+الآيات المشهورة - سليمان | https://archive.org/download/RuqyahShariahRuqyaTreatment/Famous%20Ayats%20-%201.Sulejman.mp3
+الآيات المشهورة - البسملة 2 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Famous%20Ayats%20-%202.Besmelah.mp3
+الآيات المشهورة - الكرسي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Famous%20Ayats%20-%203.Kursi.mp3
+الآيات المشهورة - البسملة 5 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Famous%20Ayats%20-%205.Besmelah.mp3
+الآيات المشهورة - الحكمة | https://archive.org/download/RuqyahShariahRuqyaTreatment/Famous%20Ayats%20-%206.Wise.mp3
+الآيات المشهورة - البسملة 7 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Famous%20Ayats%20-%207.Besmelah.mp3
+الآيات المشهورة - أسماء الله الحسنى | https://archive.org/download/RuqyahShariahRuqyaTreatment/Famous%20Ayats%20-%208.Esmaul%20Husne.mp3
+رقية - آيات إبطال السحر | https://archive.org/download/RuqyahShariahRuqyaTreatment/RUKJE%20-%20Ajetet%20e%20Magjis%20dhe%20Sihrit.mp3
+رقية - أبو علياء الجواراني 2 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia%20-%20Abo-Alyah%20Aljawarani%202.mp3
+رقية - أحمد العجمي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia%20-%20Ahmad%20Al-Ajmy.mp3
+رقية - أحمد البلحد | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia%20-%20Ahmed%20Al-Blehed.mp3
+رقية - خالد القحطاني | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia%20-%20Khaled%20Al-Qahtani.mp3
+رقية - مشاري العفاسي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia%20-%20Mishary%20Alafasi.mp3
+رقية - نبيل العوضي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia%20-%20Nabil%20Al-Awadi.mp3
+رقية - ناصر القطامي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia%20-%20Nasser%20Alqatami.mp3
+رقية - سعد الغامدي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia%20-%20Saad%20Al-Ghamdi.mp3
+رقية - ياسر الدوسري | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia%20-%20Yasser%20Al-Dosari.mp3
+رقية - محمد الجواراني | https://archive.org/download/RuqyahShariahRuqyaTreatment/Rouqia-%20Mohamed%20Aljawarani.mp3
+رقية - الحسد - العفاسي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20For%20Envy%20(Hasad)%20-%20by%20Al%20Afasay.mp3
+رقية - الجن اليهودي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20For%20Jewish%20Jinn.mp3
+رقية - سورة الفتح 1-9 | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20Surah%20Al%20Fath%20(48)%20verses%201%20-%209.mp3
+رقية - يحيى حوا - آية الكرسي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20Yahya%20Hawa%20-%20Ayat%20Al-Kursi.mp3
+رقية - يحيى حوا - سورة الصافات | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20Yahya%20Hawa%20-%20Surah%20Saffat.mp3
+رقية - يحيى حوا صوت | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20Yahya%20Hawaa%20Audio.mp3
+رقية - اللحيدان | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20by%20Luhaidan.mp3
+رقية - محمد المحيسني | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20by%20Muhammad%20Al-Mohaisany%20.mp3
+رقية - تلبية الحج | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20using%20the%20Hajj%20Talbiya.mp3
+رقية - الحروف المقطعة | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20-%20using%20the%20Muqatta'at.mp3
+رقية - الجن النصراني | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20for%20Christian%20Jinn.mp3
+رقية - للرزق | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20for%20Rizq.mp3
+رقية - الجن المخادع | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20for%20deceptive%20jinn.mp3
+رقية - مكائد السحرة | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20for%20magicians%20plots%20_%20plans.mp3
+رقية - جن الجبال | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20for%20mountainous%20jinn.mp3
+رقية - الجن التائب | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20for%20repentant%20jinn.mp3
+رقية - السحر النجمي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruqyah%20Treatment%20for%20star%20magic.mp3
+رقية - جن الزنا | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruyah%20Treatment%20for%20Zina%20type%20Jinn.mp3
+رقية - المس الطيران | https://archive.org/download/RuqyahShariahRuqyaTreatment/Ruyah%20Treatment%20for%20flight%20possession.mp3
+سورة البقرة - إدريس أبكر | https://archive.org/download/RuqyahShariahRuqyaTreatment/Surah%20002%20Al-Baqarah%20-%20Reciter%20Idrees%20Abkar.mp3
+سورة البقرة - ماهر المعيقلي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Surah%20002%20Al-Baqarah%20-%20Reciter%20Maher%20al-Muaiqaly.mp3
+سورة البقرة - مشاري العفاسي | https://archive.org/download/RuqyahShariahRuqyaTreatment/Surah%20002%20Al-Baqarah%20-%20Reciter%20Mishary%20Rashi%20al-Afasy.mp3
+
+# ===== الأغاني =====
+[أغاني: عبد الحليم حافظ]
 حاول تفتكرني | https://archive.org/download/01.-habebaty-man-takoon_202611/02%20%D8%AD%D8%A7%D9%88%D9%84%20%D8%AA%D9%81%D8%AA%D9%83%D8%B1%D9%86%D9%89.mp3
+
+[أغاني: أصالة نصري]
+آه من عيناه | https://archive.org/download/20251207_20251207_1525/آه من عيناه.mp3
+إتهمتك | https://archive.org/download/20251207_20251207_1525/إتهمتك%20.mp3
+اتفرج علي نفسك | https://archive.org/download/20251207_20251207_1525/اتفرج علي نفسك.mp3
+احنا بنستناك على نار | https://archive.org/download/20251207_20251207_1525/احنا بنستناك على نار.mp3
+ارجع لها | https://archive.org/download/20251207_20251207_1525/ارجع لها.mp3
+ارد ليه | https://archive.org/download/20251207_20251207_1525/ارد ليه -.mp3
+اسفه | https://archive.org/download/20251207_20251207_1525/اسفه -.mp3
+اعذرني | https://archive.org/download/20251207_20251207_1525/اعذرني -.mp3
+اكتر | https://archive.org/download/20251207_20251207_1525/اكتر -.mp3
+الا انت | https://archive.org/download/20251207_20251207_1525/الا انت.mp3
+الهوي | https://archive.org/download/20251207_20251207_1525/الهوي.mp3
+انا مش صعب عليك | https://archive.org/download/20251207_20251207_1525/انا مش صعب عليك.mp3
+انا منكم | https://archive.org/download/20251207_20251207_1525/انا منكم.mp3
+انت وانا | https://archive.org/download/20251207_20251207_1525/انت وانا.mp3
+اوقات 2 | https://archive.org/download/20251207_20251207_1525/اوقات 2.mp3
+اوقات | https://archive.org/download/20251207_20251207_1525/اوقات.mp3
+اى حاجة | https://archive.org/download/20251207_20251207_1525/اى حاجة.mp3
+بالاصول | https://archive.org/download/20251207_20251207_1525/بالاصول.mp3
+بتروحلك مشوار | https://archive.org/download/20251207_20251207_1525/بتروحلك مشوار.mp3
+بحلم بيك | https://archive.org/download/20251207_20251207_1525/بحلم بيك.mp3
+بقى طبيعى | https://archive.org/download/20251207_20251207_1525/بقى طبيعى.mp3
+بين ايديك | https://archive.org/download/20251207_20251207_1525/بين ايديك.mp3
+بينى وبينك | https://archive.org/download/20251207_20251207_1525/بينى وبينك.mp3
+تساهيل | https://archive.org/download/20251207_20251207_1525/تساهيل.mp3
+تمن الخيانة | https://archive.org/download/20251207_20251207_1525/تمن الخيانة.mp3
+حمدلله على السلامة | https://archive.org/download/20251207_20251207_1525/حمدلله على السلامة.mp3
+حياتى | https://archive.org/download/20251207_20251207_1525/حياتى.mp3
+زى الحلم | https://archive.org/download/20251207_20251207_1525/زى الحلم.mp3
+سامحتك | https://archive.org/download/20251207_20251207_1525/سامحتك.mp3
+عاللى جرى | https://archive.org/download/20251207_20251207_1525/عاللى جرى.mp3
+عاللى جري 2 | https://archive.org/download/20251207_20251207_1525/عاللى جري 2.mp3
+عالموليا | https://archive.org/download/20251207_20251207_1525/عالموليا.mp3
+عطشان يا صبايا | https://archive.org/download/20251207_20251207_1525/عطشان يا صبايا.mp3
+على بلد المحبوب | https://archive.org/download/20251207_20251207_1525/على بلد المحبوب.mp3
+قد الحروف | https://archive.org/download/20251207_20251207_1525/قد الحروف.mp3
+كان يا مكان | https://archive.org/download/20251207_20251207_1525/كان يا مكان.mp3
+كل الناس | https://archive.org/download/20251207_20251207_1525/كل الناس.mp3
+لا تشك للناس | https://archive.org/download/20251207_20251207_1525/لا تشك للناس.mp3
+لبعتلك رسالة | https://archive.org/download/20251207_20251207_1525/لبعتلك رسالة.mp3
+لسه فاكر | https://archive.org/download/20251207_20251207_1525/لسه فاكر.mp3
+لعبة الايام | https://archive.org/download/20251207_20251207_1525/لعبة الايام.mp3
+لوتعرفو | https://archive.org/download/20251207_20251207_1525/لوتعرفو.mp3
+ليك حق تزعل | https://archive.org/download/20251207_20251207_1525/ليك حق تزعل.mp3
+ليلة العيد | https://archive.org/download/20251207_20251207_1525/ليلة العيد.mp3
+مشوار هواك | https://archive.org/download/20251207_20251207_1525/مشوار هواك.mp3
+مشوار | https://archive.org/download/20251207_20251207_1525/مشوار.mp3
+موعود | https://archive.org/download/20251207_20251207_1525/موعود.mp3
+مين فينا | https://archive.org/download/20251207_20251207_1525/مين فينا.mp3
+نحب | https://archive.org/download/20251207_20251207_1525/نحب.mp3
+هات قلبى | https://archive.org/download/20251207_20251207_1525/هات قلبى.mp3
+هى كده | https://archive.org/download/20251207_20251207_1525/هى كده.mp3
+ولا تصدق | https://archive.org/download/20251207_20251207_1525/ولا تصدق.mp3
+يا دلع | https://archive.org/download/20251207_20251207_1525/يا دلع%20.mp3
+يا صابرة | https://archive.org/download/20251207_20251207_1525/يا صابرة.mp3
+يا مجنون | https://archive.org/download/20251207_20251207_1525/يا مجنون.mp3
+ياللي زرعتوا البرتقال | https://archive.org/download/20251207_20251207_1525/ياللي زرعتوا البرتقال.mp3
+يكلموك | https://archive.org/download/20251207_20251207_1525/يكلموك.mp3
+
+[أغاني: كاظم الساهر]
+أحبيني بلا عقد | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Ahibini.Bala.Ukad.mp3
+في مدرسة الحب | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Fi.Madrasat.Al.Hob.mp3
+حبيبي | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Ha.7abibi.mp3
+حبيبتي | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Habibati.mp3
+هل عندك شك | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Hal.Endak.Shak.mp3
+إلى تلميذة | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Ila.Tilmiza.mp3
+صباحك سكر | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Sabahak.Sukar.mp3
+تحاركه | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Taharake.mp3
+تقولين | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Takulin.mp3
+وأنا أحبك | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Wa.Ene.Oheboke.mp3
+زيديني عشقاً | https://archive.org/download/Album_KadimAlSahir_Rawae_NizarQabbani_Original_Quality/Zeidini.Ishqan.mp3
+
+[أغاني: إليسا]
+ضاع اليوم | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/2d.El.Ayam.mp3
+عمر جديد | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/3omr.Gded.mp3
+حالة حب | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/7alet.7ob.mp3
+حلوة يا بلدي | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/7lwa.Ya.Bldy.mp3
+حب كل حياتي | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/7ob.Kol.7ayaty.mp3
+أنا مجنونة | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/Ana.Mgnony.mp3
+أنا نفسي | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/Ana.Nfsy.mp3
+أول مرة | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/Awl.Mra.mp3
+برغم الظروف | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/Brghm.El.Zrof.mp3
+أنساه | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/Enseh.mp3
+إنسانه بريئة | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/Insana.Bre2a.mp3
+لو التقينا | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/Law.Et2ablna.mp3
+وجعت قلبي | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/Wg3t.Alby.mp3
+يا مرايتي | https://archive.org/download/Album_Elissa_7alet_7ob_Original_Quality/Ya.Mrayty.mp3
+بتمون | https://archive.org/download/y-2mate.com-elissa-betmoun/y2mate.com%20-%20Elissa%20Betmoun%20%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%20%20%D8%A8%D8%AA%D9%85%D9%88%D9%86.mp3
+
+[أغاني: وردة الجزائرية]
+إيه بيسألوني | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/2al.Eh.Bys2lony.mp3
+على في الأمثال | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/2alo.Fe.Elamsal.mp3
+بل النهاردة | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/2bl.Elnhrda.mp3
+قلبي سعيد | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/2lby.Sa3eed.mp3
+عايزة معجزة | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/3ayza.Mo3gza.mp3
+غايب | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/3gayeb.mp3
+علا عيني | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/3la.3eny.mp3
+علا شط بحرنا | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/3la.Shat.B7rna.mp3
+آه لو قابلتك من زمان | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ah.Law.2abltk.Mn.Zman.mp3
+آه يا ناري من الغنا | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ah.Yany.Mn.Elhna.mp3
+أحلى الليالي | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ahla.El.Lyaly.mp3
+أهلاً يا حب | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ahlan.Ya.Hob.mp3
+أكذب عليك | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Akdb.3aleek.mp3
+أنا عندي بغبغان | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ana.Andy.Bghbghan.mp3
+عندك عليا | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Andh.3leek.mp3
+أصلك تنحب | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Aslak.Tn7b.mp3
+أوقاتي بتحلو | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Aw2aty.Bt7lw.mp3
+أوراق الورد | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Awra2.ElWard.mp3
+بعمري كله حبيتك | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/B3omry.kolo.Habetk.mp3
+بعتب عليك يا زمن | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/B3tb.3lek.Ya.Zaman.mp3
+بحبك صدقني | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Bahebak.Sada2ny.mp3
+بتونس بيك | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Batwanes.Beek.mp3
+بودعك | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Bawad3k.mp3
+بكرة يا حبيبي | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Bokra.Ya.Habeeby.mp3
+بوسة | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Bosa.mp3
+دار يا دار | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Dar.Ya.Dar.mp3
+العيون السود | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/El3yon.Elsood.mp3
+الشموس | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Elshmoo3.mp3
+اشتريتني | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Eshtrony.mp3
+اسمعوني | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Esm3ony.mp3
+في يوم وليلة | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Fe.Youm.W.Leila.mp3
+جيت في وقتك | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Geet.Fe.Wa2tk.mp3
+هقولك حاجة | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ha2olak.Haga.mp3
+حنين | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Hanen.mp3
+حكايتي مع الزمن | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Hekayty.M3.Elzman.mp3
+حب الحبيب | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Hob.Elhabeb.mp3
+خليك هنا | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Khalek.Hena.mp3
+كل سنة وأنت طيب | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Kol.Sana.Wenty.Tyba.mp3
+لا مش كده | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/La.Msh.Kda.mp3
+لو سألوك | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Law.Sa2lok.mp3
+ليل يا ليالي | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Layl.Ya.Lyaly.mp3
+لازم نفترق | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Lazm.Nftr2.mp3
+لعبة الأيام | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Le3bt.El.Ayam.mp3
+لولا الملامة | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Lola.El.Mlama.mp3
+ليالينا | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Lyalena.mp3
+معقول أحب تاني | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/M32ol.Ahb.Tany.mp3
+معندكش فكرة | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/M3ndksh.Fekra.mp3
+محتارش | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/M5trnash.mp3
+ما درتوش | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Mdretosh.mp3
+من بين الألف | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Mn.Ben.Alof.mp3
+مسا النور والحنا | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Msa.Elnor.WlHna.mp3
+باريس | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Paris.mp3
+روحي وروحك | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ro7y.W.Ro7ak.mp3
+سفر | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Safar.mp3
+سلمتك يا حبيبي | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Salamtk.Ya.Hoby.mp3
+شعوري ناحيتك | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Sh3ory.Na7ytk.mp3
+تعيش وتفتكرني | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/T3esh.W.Tftkrny.mp3
+وحشتوني | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Wahshtony.mp3
+ولا في الأمثال | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Wla.Fe.Elamsal.mp3
+ولو إنك يا حبيبي بعيد | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Wlw.Enk.Ya.Habeby.B3ed.mp3
+يا حبيبي لا تقولي | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ya.Habeby.La.T2oly.mp3
+يا نخلتين | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ya.Nkhlten.mp3
+يا ولاد الحلال | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Ya.Welad.El.Halal.mp3
+ياما ليالي | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Yama.Lyaly.mp3
+يانا يا حيرانا | https://archive.org/download/Album_WardaAlJazairia_Ahla_Songs_Original_Quality/Yana.Ya.Hayrana.mp3
+
+[أغاني: أم كلثوم]
+أمل حياتي | https://archive.org/download/mouzika-umkalthum/%D8%A3%D9%85%D9%84%20%D8%AD%D9%8A%D8%A7%D8%AA%D9%8A.mp3
+أنا في إنتظارك | https://archive.org/download/mouzika-umkalthum/%D8%A3%D9%86%D8%A7%20%D9%81%D9%8A%20%D8%A5%D9%86%D8%AA%D8%B8%D8%A7%D8%B1%D9%83.mp3
+أنساك | https://archive.org/download/mouzika-umkalthum/%D8%A3%D9%86%D8%B3%D8%A7%D9%83.mp3
+الأطلال | https://archive.org/download/mouzika-umkalthum/%D8%A7%D9%84%D8%A7%D8%B7%D9%84%D8%A7%D9%84.mp3
+الحب كله | https://archive.org/download/mouzika-umkalthum/%D8%A7%D9%84%D8%AD%D8%A8%20%D9%83%D9%84%D9%87.mp3
+الرضا والنور | https://archive.org/download/mouzika-umkalthum/%D8%A7%D9%84%D8%B1%D8%B6%D8%A7%20%D9%88%D8%A7%D9%84%D9%86%D9%88%D8%B1.mp3
+ألف ليلة وليلة | https://archive.org/download/mouzika-umkalthum/%D8%A7%D9%84%D9%81%20%D9%84%D9%8A%D9%84%D9%87%20%D9%88%D9%84%D9%8A%D9%84%D9%87.mp3
+ألف ليلة | https://archive.org/download/mouzika-umkalthum/%D8%A7%D9%84%D9%81%20%D9%84%D9%8A%D9%84%D9%87.mp3
+أنا في انتظارك | https://archive.org/download/mouzika-umkalthum/%D8%A7%D9%86%D8%A7%20%D9%81%D9%8A%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D8%B1%D9%83.mp3
+أنت عمري | https://archive.org/download/mouzika-umkalthum/%D8%A7%D9%86%D8%AA%20%D8%B9%D9%85%D8%B1%D9%8A.mp3
+أنت فين والحب فين | https://archive.org/download/mouzika-umkalthum/%D8%A7%D9%86%D8%AA%20%D9%81%D9%8A%D9%86%20%D9%88%D8%A7%D9%84%D8%AD%D8%A8%20%D9%81%D9%8A%D9%86.mp3
+حب إيه | https://archive.org/download/mouzika-umkalthum/%D8%AD%D9%80%D9%80%D9%80%D9%80%D8%A8%20%D8%A5%D9%8A%D9%80%D9%80%D9%80%D9%80%D9%87.mp3
+حكم علينا الهوى | https://archive.org/download/mouzika-umkalthum/%D8%AD%D9%83%D9%85%20%D8%B9%D9%84%D9%8A%D9%86%D8%A7%20%D8%A7%D9%84%D9%87%D9%88%D9%89.mp3
+حيرت قلبي | https://archive.org/download/mouzika-umkalthum/%D8%AD%D9%8A%D8%B1%D8%AA%20%D9%82%D9%84%D8%A8%D9%8A.mp3
+دارت الأيام | https://archive.org/download/mouzika-umkalthum/%D8%AF%D8%A7%D8%B1%D8%AA%20%D8%A7%D9%84%D8%A3%D9%8A%D8%A7%D9%85.mp3
+رق الحبيب | https://archive.org/download/mouzika-umkalthum/%D8%B1%D9%82%20%D8%A7%D9%84%D8%AD%D8%A8%D9%8A%D8%A8.mp3
+غلبت أصالح في روحي | https://archive.org/download/mouzika-umkalthum/%D8%BA%D9%84%D8%A8%D8%AA%20%D8%A7%D8%B5%D8%A7%D9%84%D8%AD%20%D9%81%D9%89%20%D8%B1%D9%88%D8%AD%D9%89.mp3
+غني لي شوي | https://archive.org/download/mouzika-umkalthum/%D8%BA%D9%86%D9%8A%20%D9%84%D9%8A%20%D8%B4%D9%88%D9%8A.mp3
+فات الميعاد | https://archive.org/download/mouzika-umkalthum/%D9%81%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%B9%D8%A7%D8%AF.mp3
+فكروني | https://archive.org/download/mouzika-umkalthum/%D9%81%D9%83%D8%B1%D9%88%D9%86%D9%8A.mp3
+كوكتيل متنوع | https://archive.org/download/mouzika-umkalthum/%D9%83%D9%88%D9%83%D8%AA%D9%8A%D9%84%20%D9%85%D8%AA%D9%86%D9%88%D8%B9.mp3
+لسه فاكر | https://archive.org/download/mouzika-umkalthum/%D9%84%D9%80%D9%80%D8%B3%D9%80%D9%80%D9%87%20%D9%81%D9%80%D9%80%D8%A7%D9%83%D9%80%D9%80%D9%80%D9%80%D9%80%20%D8%B1.mp3
+ليلة حب | https://archive.org/download/mouzika-umkalthum/%D9%84%D9%8A%D9%84%D8%A9%20%D8%AD%D8%A8.mp3
+ليه تلاوعينى | https://archive.org/download/mouzika-umkalthum/%D9%84%D9%8A%D9%87%20%D8%AA%D9%84%D8%A7%D9%88%D8%B9%D9%8A%D9%86%D9%89.mp3
+من أجل عينيك | https://archive.org/download/mouzika-umkalthum/%D9%85%D9%86%20%D8%A7%D8%AC%D9%84%20%D8%B9%D9%8A%D9%86%D9%8A%D9%83.mp3
+نورك يا ست الكل | https://archive.org/download/mouzika-umkalthum/%D9%86%D9%88%D8%B1%D9%83%20%D9%8A%D8%A7%20%D8%B3%D8%AA%20%D8%A7%D9%84%D9%83%D9%84.mp3
+هو صحيح الهوى غلاب | https://archive.org/download/mouzika-umkalthum/%D9%87%D9%80%D9%88%20%D8%B5%D8%AD%D9%8A%D8%AD%20%D8%A7%D9%84%D9%87%D9%88%D9%89%20%D8%BA%D9%80%D9%84%D8%A7%D8%A8.mp3
+يا صباح الخير | https://archive.org/download/mouzika-umkalthum/%D9%8A%D8%A7%20%D8%B5%D8%A8%D8%A7%D8%AD%20%D8%A7%D9%84%D8%AE%D9%8A%D8%B1.mp3
+يا مسهرني | https://archive.org/download/mouzika-umkalthum/%D9%8A%D8%A7%20%D9%85%D8%B3%D9%87%D8%B1%D9%86%D9%8A.mp3
+
+[أغاني: فضل شاكر]
+ابقى قابلنى | https://archive.org/download/20251217_20251217_1146/ابقى قابلنى.mp3
+احضنوا الايام | https://archive.org/download/20251217_20251217_1146/احضنوا الايام.mp3
+اخذو الريح | https://archive.org/download/20251217_20251217_1146/اخذو الريح.mp3
+اكدب عليك | https://archive.org/download/20251217_20251217_1146/اكدب عليك.mp3
+الحال | https://archive.org/download/20251217_20251217_1146/الحال.mp3
+الدور على مين | https://archive.org/download/20251217_20251217_1146/الدور على مين.mp3
+العين عليك | https://archive.org/download/20251217_20251217_1146/العين عليك.mp3
+العيون السود | https://archive.org/download/20251217_20251217_1146/العيون السود.mp3
+القصة وما فيها | https://archive.org/download/20251217_20251217_1146/القصة وما فيها.mp3
+الله اعلم | https://archive.org/download/20251217_20251217_1146/الله اعلم.mp3
+اللى راحو | https://archive.org/download/20251217_20251217_1146/اللى راحو.mp3
+المرايا | https://archive.org/download/20251217_20251217_1146/المرايا.mp3
+امبارح بالليل | https://archive.org/download/20251217_20251217_1146/امبارح بالليل.mp3
+انا اشتقتلك | https://archive.org/download/20251217_20251217_1146/انا اشتقتلك.mp3
+انت بتصدنى | https://archive.org/download/20251217_20251217_1146/انت بتصدنى%20.mp3
+انسى اللى راح | https://archive.org/download/20251217_20251217_1146/انسى اللى راح.mp3
+اه يا ابن الجنية | https://archive.org/download/20251217_20251217_1146/اه يا ابن الجنية.mp3
+اوعى تصدقنى | https://archive.org/download/20251217_20251217_1146/اوعى تصدقنى.mp3
+اول حب | https://archive.org/download/20251217_20251217_1146/اول حب%20.mp3
+اول ما بشوفك | https://archive.org/download/20251217_20251217_1146/اول ما بشوفك.mp3
+بديت اطيب | https://archive.org/download/20251217_20251217_1146/بديت اطيب.mp3
+بلحفك بالله | https://archive.org/download/20251217_20251217_1146/بلحفك بالله.mp3
+بياع القلوب | https://archive.org/download/20251217_20251217_1146/بياع القلوب.mp3
+تبكى عليا | https://archive.org/download/20251217_20251217_1146/تبكى عليا%20.mp3
+جرحتنى عيونه السود | https://archive.org/download/20251217_20251217_1146/جرحتنى عيونه السود.mp3
+جوايا | https://archive.org/download/20251217_20251217_1146/جوايا.mp3
+حبيب امانى | https://archive.org/download/20251217_20251217_1146/حبيب امانى.mp3
+حبيتك | https://archive.org/download/20251217_20251217_1146/حبيتك.mp3
+حقى عليك | https://archive.org/download/20251217_20251217_1146/حقى عليك.mp3
+خطرنا على بالك | https://archive.org/download/20251217_20251217_1146/خطرنا على بالك.mp3
+خلصت كلامك 2 | https://archive.org/download/20251217_20251217_1146/خلصت كلامك 2.mp3
+خلصت كلامك | https://archive.org/download/20251217_20251217_1146/خلصت كلامك.mp3
+خليك هناك | https://archive.org/download/20251217_20251217_1146/خليك هناك.mp3
+زيد الملام | https://archive.org/download/20251217_20251217_1146/زيد الملام.mp3
+سنتين وانا حايل فيك | https://archive.org/download/20251217_20251217_1146/سنتين وانا حايل فيك%20.mp3
+سنين الشوق | https://archive.org/download/20251217_20251217_1146/سنين الشوق.mp3
+شبعنا من التمثيل | https://archive.org/download/20251217_20251217_1146/شبعنا من التمثيل.mp3
+طاير يا هو | https://archive.org/download/20251217_20251217_1146/طاير يا هو%20.mp3
+ظلمونى | https://archive.org/download/20251217_20251217_1146/ظلمونى.mp3
+عاش من شاقك | https://archive.org/download/20251217_20251217_1146/عاش من شاقك.mp3
+عاشقة وغلبانة | https://archive.org/download/20251217_20251217_1146/عاشقة وغلبانة.mp3
+عامل ايه | https://archive.org/download/20251217_20251217_1146/عامل ايه.mp3
+عدي ولا تسلمش | https://archive.org/download/20251217_20251217_1146/عدي ولا تسلمش.mp3
+عديها | https://archive.org/download/20251217_20251217_1146/عديها.mp3
+عشقتك | https://archive.org/download/20251217_20251217_1146/عشقتك.mp3
+عيون سود | https://archive.org/download/20251217_20251217_1146/عيون سود.mp3
+فاكر لما تقولى | https://archive.org/download/20251217_20251217_1146/فاكر لما تقولى.mp3
+فوق الشوك | https://archive.org/download/20251217_20251217_1146/فوق الشوك.mp3
+فين لياليك | https://archive.org/download/20251217_20251217_1146/فين لياليك.mp3
+قمرنا الليلة وصل | https://archive.org/download/20251217_20251217_1146/قمرنا الليلة وصل.mp3
+قولوا لعين الشمس | https://archive.org/download/20251217_20251217_1146/قولوا لعين الشمس%20.mp3
+كل الحلوين | https://archive.org/download/20251217_20251217_1146/كل الحلوين%20.mp3
+كنت مفكر | https://archive.org/download/20251217_20251217_1146/كنت مفكر.mp3
+لا تلومونى | https://archive.org/download/20251217_20251217_1146/لا تلومونى.mp3
+لحظة بقى | https://archive.org/download/20251217_20251217_1146/لحظة بقى.mp3
+لو سالوك | https://archive.org/download/20251217_20251217_1146/لو سالوك.mp3
+لو على قلبى | https://archive.org/download/20251217_20251217_1146/لو على قلبى%20.mp3
+لو على قلبى 2 | https://archive.org/download/20251217_20251217_1146/لو على قلبى 2.mp3
+لو غرورك | https://archive.org/download/20251217_20251217_1146/لو غرورك.mp3
+لو فاكر 2 | https://archive.org/download/20251217_20251217_1146/لو فاكر 2.mp3
+لو فاكر | https://archive.org/download/20251217_20251217_1146/لو فاكر.mp3
+لولا الملامة | https://archive.org/download/20251217_20251217_1146/لولا الملامة%20.mp3
+لولا حبك | https://archive.org/download/20251217_20251217_1146/لولا حبك.mp3
+ليه يا زمن | https://archive.org/download/20251217_20251217_1146/ليه يا زمن.mp3
+ما خلاص | https://archive.org/download/20251217_20251217_1146/ما خلاص%20.mp3
+مالى وانا مالى | https://archive.org/download/20251217_20251217_1146/مالى وانا مالى%20.mp3
+متى حبيبى | https://archive.org/download/20251217_20251217_1146/متى حبيبى%20.mp3
+مخاصمنى بقاله مدة | https://archive.org/download/20251217_20251217_1146/مخاصمنى بقاله مدة%20.mp3
+مسيرك حبيبى | https://archive.org/download/20251217_20251217_1146/مسيرك حبيبى%20.mp3
+من كتر حبى فيك | https://archive.org/download/20251217_20251217_1146/من كتر حبى فيك.mp3
+مهما صار | https://archive.org/download/20251217_20251217_1146/مهما صار.mp3
+ميتا حبيبى | https://archive.org/download/20251217_20251217_1146/ميتا حبيبى%20.mp3
+مين قالك | https://archive.org/download/20251217_20251217_1146/مين قالك.mp3
+نسيت انساك | https://archive.org/download/20251217_20251217_1146/نسيت انساك.mp3
+نسيتها | https://archive.org/download/20251217_20251217_1146/نسيتها%20.mp3
+نسيتى ازاى | https://archive.org/download/20251217_20251217_1146/نسيتى ازاى%20.mp3
+هخلى بالى | https://archive.org/download/20251217_20251217_1146/هخلى بالى.mp3
+هوا يا هو | https://archive.org/download/20251217_20251217_1146/هوا يا هو.mp3
+والله زمان | https://archive.org/download/20251217_20251217_1146/والله زمان.mp3
+والله لو جابولى | https://archive.org/download/20251217_20251217_1146/والله لو جابولى%20.mp3
+والنبى دا حرام | https://archive.org/download/20251217_20251217_1146/والنبى دا حرام.mp3
+وامانة يا دنيا | https://archive.org/download/20251217_20251217_1146/وامانة يا دنيا.mp3
+ودعتك 2 | https://archive.org/download/20251217_20251217_1146/ودعتك 2.mp3
+ودعتك | https://archive.org/download/20251217_20251217_1146/ودعتك.mp3
+وش الطيب | https://archive.org/download/20251217_20251217_1146/وش الطيب.mp3
+يا تري | https://archive.org/download/20251217_20251217_1146/يا تري.mp3
+يا تكون حبيبى | https://archive.org/download/20251217_20251217_1146/يا تكون حبيبى.mp3
+يا حبيبى | https://archive.org/download/20251217_20251217_1146/يا حبيبى%20.mp3
+يا حبيبى تعالى | https://archive.org/download/20251217_20251217_1146/يا حبيبى تعالى%20.mp3
+يا حبيبى تعالى 2 | https://archive.org/download/20251217_20251217_1146/يا حبيبى تعالى 2.mp3
+يا حياة الروح | https://archive.org/download/20251217_20251217_1146/يا حياة الروح%20.mp3
+يا غايب | https://archive.org/download/20251217_20251217_1146/يا غايب.mp3
+يا قاسى | https://archive.org/download/20251217_20251217_1146/يا قاسى%20.mp3
+يا مسهرنى الليل | https://archive.org/download/20251217_20251217_1146/يا مسهرنى الليل%20.mp3
+يا هوي الغالين | https://archive.org/download/20251217_20251217_1146/يا هوي الغالين%20.mp3
+يا ويلى | https://archive.org/download/20251217_20251217_1146/يا ويلى%20.mp3
+ياما انت واحشنى | https://archive.org/download/20251217_20251217_1146/ياما انت واحشنى%20.mp3
+يانا يانا | https://archive.org/download/20251217_20251217_1146/يانا يانا%20.mp3
+أحلى رسمة | https://archive.org/download/mp-3_20250418_20250418_2135/%D8%A3%D8%BA%D9%86%D9%8A%D8%A9%20%D8%A3%D8%AD%D9%84%D9%89%20%D8%B1%D8%B3%D9%85%D9%87%20-%20%D9%81%D8%B6%D9%84%20%D8%B4%D8%A7%D9%83%D8%B1%20Mp3.mp3
+[أغاني: وائل جسار]
+آدي النصيب | https://archive.org/download/20260614_20260614_2357/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9%20%D8%A2%D8%AF%D9%8A%20%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%A8%20-%20%D9%88%D8%A7%D8%A6%D9%84%20%D8%AC%D8%B3%D8%A7%D8%B1%20-%20%D9%84%D8%AD%D9%86%20%D8%B9%D8%B1%D8%A8%D9%8A.mp3
+أحلى موال لبناني | https://archive.org/download/20260614_20260614_2357/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9%20%D8%A3%D8%AD%D9%84%D9%89%20%D9%85%D9%88%D8%A7%D9%84%20%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%20-%20%D9%88%D8%A7%D8%A6%D9%84%20%D8%AC%D8%B3%D8%A7%D8%B1%20-%20%D9%84%D8%AD%D9%86%20%D8%B9%D8%B1%D8%A8%D9%8A.mp3
+ألغيت الحب | https://archive.org/download/20260614_20260614_2357/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9%20%D8%A3%D9%84%D8%BA%D9%8A%D8%AA%20%D8%A7%D9%84%D8%AD%D8%A8%20-%20%D9%88%D8%A7%D8%A6%D9%84%20%D8%AC%D8%B3%D8%A7%D8%B1%20-%20%D9%84%D8%AD%D9%86%20%D8%B9%D8%B1%D8%A8%D9%8A.mp3
+أمرو الحبايب | https://archive.org/download/20260614_20260614_2357/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9%20%D8%A3%D9%85%D8%B1%D9%88%20%D8%A7%D9%84%D8%AD%D8%A8%D8%A7%D9%8A%D8%A8%20-%20%D9%88%D8%A7%D8%A6%D9%84%20%D8%AC%D8%B3%D8%A7%D8%B1%20-%20%D9%84%D8%AD%D9%86%20%D8%B9%D8%B1%D8%A8%D9%8A.mp3
+ابعتلي جواب | https://archive.org/download/20260614_20260614_2357/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9%20%D8%A7%D8%A8%D8%B9%D8%AA%D9%84%D9%8A%20%D8%AC%D9%88%D8%A7%D8%A8%20-%20%D9%88%D8%A7%D8%A6%D9%84%20%D8%AC%D8%B3%D8%A7%D8%B1%20-%20%D9%84%D8%AD%D9%86%20%D8%B9%D8%B1%D8%A8%D9%8A.mp3
+احتجت لي | https://archive.org/download/20260614_20260614_2357/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9%20%D8%A7%D8%AD%D8%AA%D8%AC%D8%AA%20%D9%84%D9%8A%20-%20%D9%88%D8%A7%D8%A6%D9%84%20%D8%AC%D8%B3%D8%A7%D8%B1%20-%20%D9%84%D8%AD%D9%86%20%D8%B9%D8%B1%D8%A8%D9%8A.mp3
+احتجتلي | https://archive.org/download/20260614_20260614_2357/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9%20%D8%A7%D8%AD%D8%AA%D8%AC%D8%AA%D9%84%D9%8A%20-%20%D9%88%D8%A7%D8%A6%D9%84%20%D8%AC%D8%B3%D8%A7%D8%B1%20-%20%D9%84%D8%AD%D9%86%20%D8%B9%D8%B1%D8%A8%D9%8A.mp3
+احساس ماليني | https://archive.org/download/20260614_20260614_2357/%D8%A7%D8%BA%D9%86%D9%8A%D8%A9%20%D8%A7%D8%AD%D8%B3%D8%A7%D8%B3%20%D9%85%D8%A7%D9%84%D9%8A%D9%86%D9%8A%20-%20%D9%88%D8%A7%D8%A6%D9%84%20%D8%AC%D8%B3%D8%A7%D8%B1

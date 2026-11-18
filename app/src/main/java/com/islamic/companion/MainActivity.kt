@@ -44,6 +44,17 @@ class MainActivity : Activity() {
         @Suppress("DEPRECATION")
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY or
             View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_FULLSCREEN
+        // طلب تجاهل توفير البطارية (مهم جداً ليعمل الأذان والبرنامج مغلق)
+if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
+    val intent = android.content.Intent()
+    val packageName = packageName
+    val pm = getSystemService(android.content.Context.POWER_SERVICE) as android.os.PowerManager
+    if (!pm.isIgnoringBatteryOptimizations(packageName)) {
+        intent.action = android.provider.Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+        intent.data = android.net.Uri.parse("package:$packageName")
+        startActivity(intent)
+    }
+}
 
         // تقديم index.html من https://appassets... ليعمل تضمين يوتيوب والخرائط بشكل سليم
         val offlineDir = File(filesDir, "offline").apply { mkdirs() }

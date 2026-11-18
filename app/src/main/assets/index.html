@@ -325,5 +325,117 @@ render();
 // ساعة النظام
 setInterval(() => { $("clock").textContent = new Date().toLocaleTimeString('en-US', {hour: 'numeric', minute:'2-digit'}); }, 1000);
 </script>
+  // ===== دالة عرض المحتوى (الأغاني والدروس) =====
+function panel(i) {
+  const type = state.panels[i];
+  const el = document.createElement("div");
+  el.className = "panel" + (i === state.active ? " active" : "");
+  el.onclick = () => { if (state.active !== i) { state.active = i; render(); } };
+
+  if (type === "prayer") {
+    el.appendChild(prayerView());
+  } else if (type === "songs") {
+    // شاشة الأغاني
+    if (!window.MEDIA_LIB) {
+      el.innerHTML = `<div class="sec" style="text-align:center; margin-top:20px; color:var(--accent)">
+        ⏳ جارٍ تحميل المكتبة من GitHub...<br><br>
+        (تأكد من وجود ملف links.txt في المستودع)
+      </div>`;
+      fetch("https://raw.githubusercontent.com/lolomiq2024-collab/car-miqdadi/main/links.txt")
+        .then(r => r.text())
+        .then(text => {
+          const lib = parseLinksTxt(text);
+          window.MEDIA_LIB = lib;
+          render();
+        }).catch(e => {
+          el.innerHTML = `<div class="sec" style="color:red">تعذر الاتصال بالإنترنت لجلب المكتبة.</div>`;
+        });
+      return el;
+    }
+
+    if (state.openSinger == null) {
+      el.appendChild(sec("اختر المطرب"));
+      const grid = document.createElement("div"); grid.className = "grid4";
+      Object.keys(window.MEDIA_LIB.songs).forEach((singer, idx) => {
+        const c = card(idx, singer, "", () => { state.openSinger = singer; render(); }, true);
+        grid.appendChild(c);
+      });
+      el.appendChild(grid);
+    } else {
+      const back = document.createElement("button"); back.className = "reciter";
+      back.innerHTML = `<span>→ رجوع</span><b>🎵 ${state.openSinger}</b>`;
+      back.onclick = e => { e.stopPropagation(); state.openSinger = null; render(); };
+      el.appendChild(back);
+      
+      const songs = window.MEDIA_LIB.songs[state.openSinger];
+      const grid = document.createElement("div"); grid.className = "grid4";
+      songs.forEach((s, idx) => {
+        const c = card(idx, s.title, "", () => playAudio(s.url, s.title), false);
+        grid.appendChild(c);
+      });
+      el.appendChild(grid);
+    }
+  } else if (type === "lessons") {
+    // شاشة الدروس
+    if (!window.MEDIA_LIB) {
+      el.innerHTML = `<div class="sec" style="text-align:center; margin-top:20px; color:var(--accent)">⏳ جارٍ تحميل الدروس...</div>`;
+      setTimeout(render, 1500); // ننتظر التحميل من الأغاني
+      return el;
+    }
+    el.appendChild(sec("السلاسل الصوتية"));
+    const grid = document.createElement("div"); grid.className = "grid4";
+    window.MEDIA_LIB.lessons.forEach((lesson, idx) => {
+      const c = card(idx, lesson.name, lesson.who, () => {
+        // عند الضغط نعرض الحلقات
+        state.openSeries = idx; render();
+      }, true);
+      grid.appendChild(c);
+    });
+    el.appendChild(grid);
+  } else {
+    el.innerHTML = `<div class="sec" style="text-align:center; margin-top:50px;">القسم (${TYPES[type].label})</div>`;
+  }
+  return el;
+}
+
+// دالة لتحليل ملف links.txt وتحويله إلى مكتبة
+function parseLinksTxt(text) {
+  const lib = { songs: {}, lessons: [] };
+  let currentType = null, currentName = null;
+
+  text.split('\n').forEach(line => {
+    line = line.trim();
+    if (!line || line.startsWith('#')) return;
+
+    if (line.startsWith('[أغاني:')) {
+      currentType = 'songs';
+      currentName = line.replace('[أغاني:', '').replace(']', '').trim();
+      lib.songs[currentName] = [];
+    } else if (line.startsWith('[درس:')) {
+      currentType = 'lessons';
+      currentName = line.replace('[درس:', '').replace(']', '').trim();
+      lib.lessons.push({ name: currentName, who: "الشيخ", episodes: [] });
+    } else if (line.includes('|')) {
+      const parts = line.split('|');
+      const title = parts[0].trim();
+      const url = parts[1].trim();
+      
+      if (currentType === 'songs' && lib.songs[currentName]) {
+        lib.songs[currentName].push({ title, url });
+      } else if (currentType === 'lessons' && lib.lessons.length > 0) {
+        lib.lessons[lib.lessons.length - 1].episodes.push({ title, url });
+      }
+    }
+  });
+  return lib;
+}
+
+// دالة تشغيل الصوت
+const audio = new Audio();
+function playAudio(url, title) {
+  document.getElementById('nowTitle').textContent = title;
+  audio.src = url;
+  audio.play().catch(e => alert("تعذر التشغيل: " + e.message));
+}
 </body>
 </html>

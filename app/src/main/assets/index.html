@@ -20,7 +20,6 @@
   button { cursor: pointer; border: 0; background: none; }
   .frame { width: min(100%, 1100px); container-type: inline-size; }
   .screen { width: 100%; aspect-ratio: 16/9; border-radius: 16px; border: 2px solid #334155; overflow: hidden; position: relative; background: linear-gradient(160deg, var(--g1) 0%, var(--g2) 48%, var(--g3) 100%); display: grid; grid-template-columns: 4.7em 1fr; font-size: calc(var(--fs) * 1cqw); }
-  .screen::before { content: ""; position: absolute; inset: 0; background: url("bg.jpg") center/cover no-repeat; opacity: .15; z-index: 0; pointer-events: none; }
   .rail { display: flex; flex-direction: column; align-items: center; gap: .7em; padding: .7em 0; overflow-y: auto; scrollbar-width: none; position: relative; z-index: 1; }
   .rail .ico { width: 2.9em; height: 2.9em; border-radius: 50%; display: grid; place-items: center; font-size: 1.35em; transition: transform .15s, box-shadow .15s; background: rgba(255,255,255,.05); }
   .rail button { display: flex; flex-direction: column; align-items: center; gap: .2em; color: var(--muted); font-size: var(--t-cap); }
@@ -30,7 +29,6 @@
   .top { display: flex; align-items: center; gap: .65em; padding: .8em .9em .3em 1.1em; }
   .search { flex: 1; display: flex; align-items: center; gap: .55em; background: rgba(255,255,255,.08); border-radius: 999px; padding: 0 1em; height: 2.55em; }
   .search input { flex: 1; background: none; border: 0; outline: 0; color: var(--text); }
-  .clock { color: var(--muted); font-size: var(--t-sm); }
   .pill { background: rgba(255,255,255,.1); border-radius: 999px; padding: 0 1em; height: 2.55em; font-size: var(--t-body); color: var(--text); border: 1px solid rgba(255,255,255,.1); }
   .pill:hover { background: var(--accent); color: #000; }
   .panels { flex: 1; display: flex; gap: var(--gap); padding: .3em .9em .55em 1.1em; min-height: 0; }
@@ -50,40 +48,35 @@
   .progress { position: absolute; bottom: 0; right: 0; left: 0; height: .55em; background: rgba(255,255,255,.1); cursor: pointer; }
   .progress i { display: block; height: 100%; width: 0; background: var(--accent); }
 
-  /* ===== تصميم قسم الصلاة (المظهر الجديد) ===== */
-  .pr-container { display: flex; flex-direction: column; gap: 10px; height: 100%; font-family: system-ui, -apple-system, sans-serif; }
+  /* تصميم الصلاة */
+  .pr-container { display: flex; flex-direction: column; gap: 10px; height: 100%; }
   .pr-top-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 15px; background: rgba(15, 23, 42, 0.4); border-radius: 12px; border: 1px solid rgba(250, 204, 21, 0.1); }
-  .pr-top-bar h2 { font-size: 1.2rem; color: var(--accent); display: flex; align-items: center; gap: 8px; margin: 0; }
+  .pr-top-bar h2 { font-size: 1.2rem; color: var(--accent); margin: 0; }
   .pr-screens { display: flex; gap: 15px; flex: 1; min-height: 0; }
   @media (max-width: 760px) { .pr-screens { flex-direction: column; } }
-  .pr-glass-card { flex: 1; background: rgba(10, 15, 30, 0.2); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.08); padding: 15px; display: flex; flex-direction: column; box-shadow: 0 8px 32px rgba(0,0,0,0.3); overflow: hidden; }
+  .pr-glass-card { flex: 1; background: rgba(10, 15, 30, 0.2); backdrop-filter: blur(12px); border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.08); padding: 15px; display: flex; flex-direction: column; }
   .pr-countdown { text-align: center; margin-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 15px; }
   .pr-countdown small { color: var(--muted); font-size: 0.9rem; display: block; margin-bottom: 5px; }
   .pr-countdown b { font-size: 2.2rem; color: var(--accent); font-weight: 700; direction: ltr; font-family: monospace; }
-  .pr-list { display: flex; flex-direction: column; gap: 8px; flex: 1; overflow-y: auto; scrollbar-width: none; }
-  .pr-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 15px; border-radius: 8px; background: rgba(255, 255, 255, 0.03); border-left: 4px solid transparent; transition: all 0.3s ease; }
+  .pr-list { display: flex; flex-direction: column; gap: 8px; flex: 1; overflow-y: auto; }
+  .pr-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 15px; border-radius: 8px; background: rgba(255, 255, 255, 0.03); border-left: 4px solid transparent; }
   .pr-item span { color: #cbd5e1; font-size: 1rem; }
-  .pr-item strong { color: #f1f5f9; font-size: 1.1rem; font-weight: 600; direction: ltr; }
-  .pr-item.next { background: rgba(250, 204, 21, 0.1); border-left-color: var(--accent); border-radius: 8px 20px 20px 8px; box-shadow: 0 0 15px rgba(250, 204, 21, 0.2); }
-  .pr-item.next span { color: var(--accent); font-weight: bold; }
-  .pr-item.next strong { color: var(--accent); }
+  .pr-item strong { color: #f1f5f9; font-size: 1.1rem; direction: ltr; }
+  .pr-item.next { background: rgba(250, 204, 21, 0.1); border-left-color: var(--accent); border-radius: 8px 20px 20px 8px; }
+  .pr-item.next span, .pr-item.next strong { color: var(--accent); font-weight: bold; }
   .pr-qibla-card { display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; }
-  .pr-qibla-header { position: absolute; top: 15px; left: 15px; right: 15px; display: flex; justify-content: space-between; color: var(--accent); font-size: 1.1rem; font-weight: bold; }
-  .pr-qibla-header span { color: var(--muted); font-size: 0.9rem; font-weight: normal; }
+  .pr-qibla-header { position: absolute; top: 15px; left: 15px; right: 15px; display: flex; justify-content: space-between; color: var(--accent); font-weight: bold; }
   .compass-container { width: 200px; height: 200px; position: relative; margin-top: 30px; }
-  .compass-circle { width: 100%; height: 100%; border-radius: 50%; border: 3px solid var(--accent); position: relative; box-shadow: 0 0 30px rgba(250, 204, 21, 0.2), inset 0 0 20px rgba(250, 204, 21, 0.1); background: radial-gradient(circle, rgba(15,23,42,0.8) 0%, rgba(0,0,0,0) 70%); }
-  .compass-center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 10px; height: 10px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 10px var(--accent); }
-  .dir { position: absolute; color: var(--muted); font-weight: bold; font-size: 1rem; }
+  .compass-circle { width: 100%; height: 100%; border-radius: 50%; border: 3px solid var(--accent); position: relative; background: radial-gradient(circle, rgba(15,23,42,0.8) 0%, rgba(0,0,0,0) 70%); }
+  .compass-center { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 10px; height: 10px; background: var(--accent); border-radius: 50%; }
+  .dir { position: absolute; color: var(--muted); font-weight: bold; }
   .dir-n { top: 10px; left: 50%; transform: translateX(-50%); color: var(--accent); }
   .dir-s { bottom: 10px; left: 50%; transform: translateX(-50%); }
   .dir-e { right: 10px; top: 50%; transform: translateY(-50%); }
   .dir-w { left: 10px; top: 50%; transform: translateY(-50%); }
   .qibla-arrow { position: absolute; top: 50%; left: 50%; width: 2px; height: 90px; background: linear-gradient(to top, transparent, var(--accent)); transform-origin: bottom center; transform: translate(-50%, -100%); transition: transform 0.5s ease-out; }
   .qibla-arrow::before { content: ''; position: absolute; top: -10px; left: -5px; border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 12px solid var(--accent); }
-  .compass-kaaba { position: absolute; top: -15px; left: 50%; transform: translateX(-50%); font-size: 1.5rem; filter: drop-shadow(0 0 5px var(--accent)); }
-  .pr-settings { display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; justify-content: center; }
-  .pr-settings button, .pr-settings select { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #fff; padding: 8px 15px; border-radius: 20px; cursor: pointer; font-size: 0.9rem; }
-  .pr-settings select option { background: #0f172a; color: #fff; }
+  .compass-kaaba { position: absolute; top: -15px; left: 50%; transform: translateX(-50%); font-size: 1.5rem; }
 </style>
 </head>
 <body>
@@ -91,20 +84,14 @@
   <nav class="rail" id="rail"></nav>
   <div class="main">
     <div class="top">
-      <div class="search">
-        <input id="q" placeholder="ابحث عن سورة أو درس…">
-      </div>
-      <span class="clock" id="clock"></span>
+      <div class="search"><input id="q" placeholder="ابحث عن سورة…"></div>
       <button class="pill" id="splitBtn">شاشة واحدة</button>
     </div>
     <div class="panels" id="panels"></div>
     <div class="bar">
       <span class="title" id="nowTitle">لا يوجد تشغيل</span>
-      <span class="time" id="time"></span>
       <button class="ctl" id="prev">⏮</button>
-      <button class="ctl sk" id="back15">⏪15</button>
       <button class="ctl big" id="play">▶</button>
-      <button class="ctl sk" id="fwd15">15⏩</button>
       <button class="ctl" id="next">⏭</button>
       <div class="progress"><i id="prog"></i></div>
     </div>
@@ -113,26 +100,35 @@
 </div>
 
 <script>
-// ====== أكواد التطبيق الأساسية ======
-const CITIES_JO = {"عمّان":[31.9539,35.9106],"إربد":[32.5556,35.8500],"الزرقاء":[32.0728,36.0876],"العقبة":[29.5321,35.0063],"السلط":[32.0392,35.7272],"المفرق":[32.3406,36.2080],"جرش":[32.2811,35.8995],"عجلون":[32.3326,35.7517],"الكرك":[31.1853,35.7048],"الطفيلة":[30.8375,35.6042],"معان":[30.1962,35.7340],"مأدبا":[31.7160,35.7939],"الرمثا":[32.5658,36.0069],"وادي موسى":[30.3285,35.4444],"الأزرق":[31.8833,36.8167]};
-const CITIES_OTHER = {"القدس":[31.7683,35.2137],"مكة المكرمة":[21.3891,39.8579],"المدينة المنورة":[24.5247,39.5692],"الرياض":[24.7136,46.6753],"جدة":[21.4858,39.1925],"القاهرة":[30.0444,31.2357],"دبي":[25.2048,55.2708],"أبوظبي":[24.4539,54.3773],"الدوحة":[25.2854,51.5310],"الكويت":[29.3759,47.9774],"مسقط":[23.5880,58.3829],"بغداد":[33.3152,44.3661],"دمشق":[33.5138,36.2765],"بيروت":[33.8938,35.5018],"إسطنبول":[41.0082,28.9784]};
-const CITIES = Object.assign({}, CITIES_JO, CITIES_OTHER);
+// ====== المتغيرات الأساسية ======
+const reciters = ["مشاري العفاسي", "عبد الباسط عبد الصمد", "المنشاوي", "عبد الرحمن السديس", "ماهر المعيقلي"];
+const reciterBase = [
+  "https://server8.mp3quran.net/afs/",
+  "https://server7.mp3quran.net/basit/",
+  "https://server10.mp3quran.net/minsh/",
+  "https://server11.mp3quran.net/sds/",
+  "https://server12.mp3quran.net/maher/"
+];
+const surahs = "الفاتحة,البقرة,آل عمران,النساء,المائدة,الأنعام,الأعراف,الأنفال,التوبة,يونس,هود,يوسف,الرعد,إبراهيم,الحجر,النحل,الإسراء,الكهف,مريم,طه,الأنبياء,الحج,المؤمنون,النور,الفرقان,الشعراء,النمل,القصص,العنكبوت,الروم,لقمان,السجدة,الأحزاب,سبأ,فاطر,يس,الصافات,ص,الزمر,غافر,فصلت,الشورى,الزخرف,الدخان,الجاثية,الأحقاف,محمد,الفتح,الحجرات,ق,الذاريات,الطور,النجم,القمر,الرحمن,الواقعة,الحديد,المجادلة,الحشر,الممتحنة,الصف,الجمعة,المنافقون,التغابن,الطلاق,التحريم,الملك,القلم,الحاقة,المعارج,نوح,الجن,المزمل,المدثر,القيامة,الإنسان,المرسلات,النبأ,النازعات,عبس,التكوير,الانفطار,المطففين,الانشقاق,البروج,الطارق,الأعلى,الغاشية,الفجر,البلد,الشمس,الليل,الضحى,الشرح,التين,العلق,القدر,البينة,الزلزلة,العاديات,القارعة,التكاثر,العصر,الهمزة,الفيل,قريش,الماعون,الكوثر,الكافرون,النصر,المسد,الإخلاص,الفلق,الناس".split(",");
+const CITIES_JO = {"عمّان":[31.9539,35.9106],"إربد":[32.5556,35.8500],"الزرقاء":[32.0728,36.0876],"العقبة":[29.5321,35.0063],"السلط":[32.0392,35.7272],"المفرق":[32.3406,36.2080]};
 const PRAYERS = [["fajr","Fajr (الفجر)"],["sunrise","الشروق"],["dhuhr","Dhuhr (الظهر)"],["asr","Asr (العصر)"],["maghrib","Maghrib (المغرب)"],["isha","Isha (العشاء)"]];
-const PS_DEF = { city:"إربد", lat:32.5556, lng:35.8500, method:"mwl", cf:18, ci:18, adj:{fajr:0,sunrise:0,dhuhr:0,asr:0,maghrib:0,isha:0}, asr:1, adhan:true, on:{fajr:true,dhuhr:true,asr:true,maghrib:true,isha:true} };
+const PS_DEF = { city:"إربد", lat:32.5556, lng:35.8500, adj:{fajr:0,sunrise:0,dhuhr:0,asr:0,maghrib:0,isha:0}, asr:1 };
 
 let _ps = null;
 function PS() {
   if (_ps) return _ps;
   let s = {}; try { s = JSON.parse(localStorage.getItem("pray") || "{}"); } catch (e) {}
-  _ps = Object.assign({}, PS_DEF, s, { on: Object.assign({}, PS_DEF.on, s.on || {}), adj: Object.assign({}, PS_DEF.adj, s.adj || {}) });
+  _ps = Object.assign({}, PS_DEF, s, { adj: Object.assign({}, PS_DEF.adj, s.adj || {}) });
   return _ps;
 }
 function savePS() { try { localStorage.setItem("pray", JSON.stringify(_ps)); } catch (e) {} }
 
-const mkEl = (tag, cls, html) => { const d = document.createElement(tag); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; };
 const $ = id => document.getElementById(id);
+const mkEl = (tag, cls, html) => { const d = document.createElement(tag); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; };
+const state = { split:true, panels:["quran","prayer"], active:0, reciter:0, q:"", openSinger:null, openSeries:null, reciterOpen:false };
+window.audioPlayer = new Audio();
 
-// محرك حساب أوقات الصلاة
+// ====== محرك أوقات الصلاة ======
 const PT = (() => {
   const R = Math.PI / 180, sin = a => Math.sin(a * R), cos = a => Math.cos(a * R), tan = a => Math.tan(a * R);
   const asin = x => Math.asin(x) / R, acos = x => Math.acos(x) / R, atan2 = (y, x) => Math.atan2(y, x) / R, acot = x => Math.atan(1 / x) / R;
@@ -152,19 +148,18 @@ const PT = (() => {
     let raw = { fajr: 5, sunrise: 6, dhuhr: 12, asr: 13, sunset: 18, maghrib: 18, isha: 18 };
     for (let k = 0; k < 2; k++) {
       const t = {}; for (const x in raw) t[x] = raw[x] / 24;
-      raw = { fajr: ang(m.f, t.fajr, true), sunrise: ang(0.833, t.sunrise, true), dhuhr: mid(t.dhuhr), asr: asr(t.asr), sunset: ang(0.833, t.sunset), maghrib: ang(0.833, t.maghrib), isha: m.i != null ? ang(m.i, t.isha) : 0 };
+      raw = { fajr: ang(18, t.fajr, true), sunrise: ang(0.833, t.sunrise, true), dhuhr: mid(t.dhuhr), asr: asr(t.asr), sunset: ang(0.833, t.sunset), maghrib: ang(0.833, t.maghrib), isha: ang(17, t.isha) };
     }
     const out = {}; for (const x in raw) out[x] = raw[x] + tz - lng / 15;
-    if (m.im) out.isha = out.maghrib + m.im / 60;
     return out;
   }
   return { compute };
 })();
 
 function dayTimes(date) {
-  const s = PS(), m = {f:18, i:17};
+  const s = PS();
   const tz = -new Date(date.getFullYear(), date.getMonth(), date.getDate(), 12).getTimezoneOffset() / 60;
-  const h = PT.compute(date, s.lat, s.lng, tz, m, +s.asr);
+  const h = PT.compute(date, s.lat, s.lng, tz, {f:18, i:17}, +s.asr);
   const base = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
   return PRAYERS.map(([k, n]) => ({ k, n, pray: k !== "sunrise", t: base + (h[k] - tz) * 3600000 + (s.adj[k] || 0) * 60000 }));
 }
@@ -176,27 +171,23 @@ function nextPrayer() {
 }
 function countdown(ms) { const h = Math.floor(ms / 3600000), m = Math.floor(ms % 3600000 / 60000), s = Math.floor(ms % 60000 / 1000); return `${String(h).padStart(2,'0')}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`; }
 
-// ====== تصميم واجهة الصلاة الجديد ======
+// ====== واجهة الصلاة ======
 function prayerView() {
   const s = PS(), root = mkEl("div", "pr-container");
-  
   let hijri = ""; try { hijri = new Intl.DateTimeFormat("ar-SA-u-ca-islamic-umalqura", { day: "numeric", month: "long", year: "numeric" }).format(new Date()); } catch (e) {}
-  const greg = new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
   
   root.innerHTML = `
     <div class="pr-top-bar">
-      <h2>🌙 Al-Muezzin (المؤذن)</h2>
+      <h2>🌙 المؤذن</h2>
       <div style="color:#94a3b8; font-size:0.85rem; text-align:left;">
-        <div>${new Date().toLocaleTimeString('en-US', {hour: 'numeric', minute:'2-digit'})} | ${s.city}, Jordan | ${greg}</div>
-        <div style="font-size:0.75rem;">${hijri}</div>
+        <div>${s.city} | ${hijri}</div>
       </div>
     </div>
-    
     <div class="pr-screens">
       <div class="pr-glass-card">
         <div class="pr-countdown">
           <small>Next Prayer: ${nextPrayer() ? nextPrayer().n : "—"}</small>
-          <b id="pcount" data-k="${nextPrayer() ? nextPrayer().k + nextPrayer().t : ""}">${nextPrayer() ? countdown(nextPrayer().t - Date.now()) : "00:00:00"}</b>
+          <b id="pcount">${nextPrayer() ? countdown(nextPrayer().t - Date.now()) : "00:00:00"}</b>
         </div>
         <div class="pr-list" id="prayerList">
           ${dayTimes(new Date()).map(p => `
@@ -207,55 +198,30 @@ function prayerView() {
           `).join('')}
         </div>
       </div>
-
       <div class="pr-glass-card pr-qibla-card">
-        <div class="pr-qibla-header">
-          <div>قبلة <br><span style="font-size:0.8rem" id="qiblaDegree">0°</span></div>
-          <span>Makkah (مكة المكرمة)</span>
-        </div>
+        <div class="pr-qibla-header"><div>قبلة <br><span id="qiblaDegree">0°</span></div><span>Makkah</span></div>
         <div class="compass-container">
           <div class="compass-circle">
             <div class="dir dir-n">N</div><div class="dir dir-s">S</div><div class="dir dir-e">E</div><div class="dir dir-w">W</div>
             <div class="compass-center"></div>
-            <div class="qibla-arrow" id="qiblaArrow" style="transform: translate(-50%, -100%) rotate(0deg);">
-              <div class="compass-kaaba">🕋</div>
-            </div>
+            <div class="qibla-arrow" id="qiblaArrow"><div class="compass-kaaba">🕋</div></div>
           </div>
         </div>
       </div>
-    </div>
-    
-    <div class="pr-settings">
-      <button id="padhan">${s.adhan ? "🔔 الأذان: يعمل" : "🔕 الأذان: متوقف"}</button>
-      <select id="pcity">${Object.keys(CITIES).map(c => `<option${c === s.city ? " selected" : ""}>${c}</option>`).join('')}</select>
-      <button id="ploc">📍 موقعي</button>
     </div>
   `;
 
   setTimeout(() => {
     const arrow = document.getElementById('qiblaArrow');
     if (arrow) {
-      const lat = s.lat, lng = s.lng;
-      const makkahLat = 21.4225, makkahLng = 39.8262;
-      const phi1 = lat * Math.PI / 180, phi2 = makkahLat * Math.PI / 180;
-      const deltaLambda = (makkahLng - lng) * Math.PI / 180;
-      const y = Math.sin(deltaLambda);
-      const x = Math.cos(phi1) * Math.tan(phi2) - Math.sin(phi1) * Math.cos(deltaLambda);
+      const lat = s.lat, lng = s.lng, makkahLat = 21.4225, makkahLng = 39.8262;
+      const phi1 = lat * Math.PI / 180, phi2 = makkahLat * Math.PI / 180, deltaLambda = (makkahLng - lng) * Math.PI / 180;
+      const y = Math.sin(deltaLambda), x = Math.cos(phi1) * Math.tan(phi2) - Math.sin(phi1) * Math.cos(deltaLambda);
       const qiblaAngle = (Math.atan2(y, x) * 180 / Math.PI + 360) % 360;
       arrow.style.transform = `translate(-50%, -100%) rotate(${qiblaAngle}deg)`;
-      const degEl = document.getElementById('qiblaDegree');
-      if (degEl) degEl.textContent = Math.round(qiblaAngle) + '°';
+      document.getElementById('qiblaDegree').textContent = Math.round(qiblaAngle) + '°';
     }
   }, 100);
-
-  const stop = (sel, ev, fn) => { const e = root.querySelector(sel); e[ev] = x => { x.stopPropagation(); fn(e, x); }; };
-  stop("#pcity", "onchange", e => { const c = CITIES[e.target.value]; if (c) { s.city = e.target.value; s.lat = c[0]; s.lng = c[1]; state.loc = null; savePS(); render(); } });
-  stop("#ploc", "onclick", () => {
-    if (!navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition(p => { s.lat = p.coords.latitude; s.lng = p.coords.longitude; s.city = "موقعي"; state.loc = { lat: s.lat, lng: s.lng }; savePS(); render(); },
-      () => { $("nowTitle").textContent = "تعذّر تحديد الموقع"; });
-  });
-  stop("#padhan", "onclick", () => { s.adhan = !s.adhan; savePS(); render(); });
 
   const int = setInterval(() => {
     const c = root.querySelector("#pcount");
@@ -265,11 +231,10 @@ function prayerView() {
   
   const obs = new MutationObserver(() => { if (!document.body.contains(root)) { clearInterval(int); obs.disconnect(); } });
   obs.observe($("panels"), { childList: true });
-
   return root;
 }
 
-// ====== هيكل التطبيق والواجهات الأخرى ======
+// ====== بناء الواجهة ======
 const TYPES = {
   quran: {label:"القرآن", icon:"📖", color:"--c-quran"},
   lessons: {label:"الدروس", icon:"🎙️", color:"--c-lessons"},
@@ -279,7 +244,6 @@ const TYPES = {
   phone: {label:"الهاتف", icon:"📞", color:"--c-phone"},
   map: {label:"الخريطة", icon:"🗺️", color:"--c-map"},
 };
-const state = { split:true, panels:["prayer","map"], active:0, playing:false, current:null, list:[], idx:0, reciter:0, q:"" };
 
 function renderRail() {
   const rail = $("rail"); rail.innerHTML = "";
@@ -292,12 +256,9 @@ function renderRail() {
     rail.appendChild(b);
   }
 }
-const isCompact = () => window.matchMedia("(max-width: 760px), (orientation: portrait)").matches;
-state.split = !isCompact();
 
 function render() {
   const wrap = $("panels"); wrap.innerHTML = "";
-  wrap.classList.toggle("split", state.split);
   const n = state.split ? 2 : 1;
   if (state.active >= n) state.active = 0;
   for (let i = 0; i < n; i++) wrap.appendChild(panel(i));
@@ -305,51 +266,64 @@ function render() {
   renderRail();
 }
 
-function panel(i) {
-  const type = state.panels[i];
-  const el = document.createElement("div");
-  el.className = "panel" + (i === state.active ? " active" : "");
-  el.onclick = () => { if (state.active !== i) { state.active = i; render(); } };
-
-  if (type === "prayer") {
-    el.appendChild(prayerView());
-  } else {
-    el.innerHTML = `<div class="sec" style="text-align:center; margin-top:50px;">هذا القسم (${TYPES[type].label}) جاهز للربط البرمجي في مشروعك الأصلي.</div>`;
-  }
-  return el;
+function sec(t) { const d = document.createElement("div"); d.className = "sec"; d.textContent = t; return d; }
+function card(i, title, sub, fn, wide) {
+  const b = document.createElement("button");
+  b.className = "card" + (wide ? " wide" : "");
+  b.innerHTML = `<b>${title}</b>${sub ? `<small>${sub}</small>` : ""}`;
+  b.onclick = fn; return b;
 }
 
-$("splitBtn").onclick = () => { state.split = !state.split; render(); };
-render();
-
-// ساعة النظام
-setInterval(() => { $("clock").textContent = new Date().toLocaleTimeString('en-US', {hour: 'numeric', minute:'2-digit'}); }, 1000);
-</script>
-  // ===== دالة عرض المحتوى (الأغاني والدروس) =====
+// ====== دالة عرض المحتوى ======
 function panel(i) {
   const type = state.panels[i];
   const el = document.createElement("div");
   el.className = "panel" + (i === state.active ? " active" : "");
   el.onclick = () => { if (state.active !== i) { state.active = i; render(); } };
 
-  if (type === "prayer") {
+  if (type === "quran") {
+    const rb = document.createElement("button"); rb.className = "reciter";
+    rb.innerHTML = `<span>🎙️ القارئ</span><b>${reciters[state.reciter]}</b><span>▾</span>`;
+    rb.onclick = e => { e.stopPropagation(); state.reciterOpen = !state.reciterOpen; render(); };
+    el.appendChild(rb);
+
+    if (state.reciterOpen) {
+      const m = document.createElement("div"); m.className = "reciter-menu";
+      reciters.forEach((r, k) => {
+        const o = document.createElement("button"); o.className = "opt" + (k === state.reciter ? " on" : "");
+        o.textContent = r;
+        o.onclick = e => { e.stopPropagation(); state.reciter = k; state.reciterOpen = false; render(); };
+        m.appendChild(o);
+      });
+      el.appendChild(m);
+    }
+
+    el.appendChild(sec("السور"));
+    const q = (state.q || "").trim();
+    const items = surahs.map((s, k) => [s, k]).filter(([s]) => !q || s.includes(q));
+    
+    const g = document.createElement("div"); g.className = "grid4";
+    items.forEach(([s, k]) => {
+      const title = `سورة ${s}`;
+      const c = card(k, title, "", () => {
+        const url = reciterBase[state.reciter] + String(k + 1).padStart(3, "0") + ".mp3";
+        $('nowTitle').textContent = title + " - " + reciters[state.reciter];
+        window.audioPlayer.src = url;
+        window.audioPlayer.play();
+      });
+      g.appendChild(c);
+    });
+    el.appendChild(g);
+    
+  } else if (type === "prayer") {
     el.appendChild(prayerView());
   } else if (type === "songs") {
-    // شاشة الأغاني
     if (!window.MEDIA_LIB) {
-      el.innerHTML = `<div class="sec" style="text-align:center; margin-top:20px; color:var(--accent)">
-        ⏳ جارٍ تحميل المكتبة من GitHub...<br><br>
-        (تأكد من وجود ملف links.txt في المستودع)
-      </div>`;
+      el.innerHTML = `<div class="sec" style="text-align:center; margin-top:20px; color:var(--accent)">⏳ جارٍ تحميل المكتبة...</div>`;
       fetch("https://raw.githubusercontent.com/lolomiq2024-collab/car-miqdadi/main/links.txt")
         .then(r => r.text())
-        .then(text => {
-          const lib = parseLinksTxt(text);
-          window.MEDIA_LIB = lib;
-          render();
-        }).catch(e => {
-          el.innerHTML = `<div class="sec" style="color:red">تعذر الاتصال بالإنترنت لجلب المكتبة.</div>`;
-        });
+        .then(text => { window.MEDIA_LIB = parseLinksTxt(text); render(); })
+        .catch(e => { el.innerHTML = `<div class="sec" style="color:red">تعذر جلب المكتبة.</div>`; });
       return el;
     }
 
@@ -357,8 +331,7 @@ function panel(i) {
       el.appendChild(sec("اختر المطرب"));
       const grid = document.createElement("div"); grid.className = "grid4";
       Object.keys(window.MEDIA_LIB.songs).forEach((singer, idx) => {
-        const c = card(idx, singer, "", () => { state.openSinger = singer; render(); }, true);
-        grid.appendChild(c);
+        grid.appendChild(card(idx, singer, "", () => { state.openSinger = singer; render(); }, true));
       });
       el.appendChild(grid);
     } else {
@@ -370,72 +343,21 @@ function panel(i) {
       const songs = window.MEDIA_LIB.songs[state.openSinger];
       const grid = document.createElement("div"); grid.className = "grid4";
       songs.forEach((s, idx) => {
-        const c = card(idx, s.title, "", () => playAudio(s.url, s.title), false);
-        grid.appendChild(c);
+        grid.appendChild(card(idx, s.title, "", () => {
+          $('nowTitle').textContent = s.title;
+          window.audioPlayer.src = s.url;
+          window.audioPlayer.play();
+        }));
       });
       el.appendChild(grid);
     }
   } else if (type === "lessons") {
-    // شاشة الدروس
     if (!window.MEDIA_LIB) {
       el.innerHTML = `<div class="sec" style="text-align:center; margin-top:20px; color:var(--accent)">⏳ جارٍ تحميل الدروس...</div>`;
-      setTimeout(render, 1500); // ننتظر التحميل من الأغاني
+      setTimeout(render, 1500);
       return el;
     }
     el.appendChild(sec("السلاسل الصوتية"));
     const grid = document.createElement("div"); grid.className = "grid4";
     window.MEDIA_LIB.lessons.forEach((lesson, idx) => {
-      const c = card(idx, lesson.name, lesson.who, () => {
-        // عند الضغط نعرض الحلقات
-        state.openSeries = idx; render();
-      }, true);
-      grid.appendChild(c);
-    });
-    el.appendChild(grid);
-  } else {
-    el.innerHTML = `<div class="sec" style="text-align:center; margin-top:50px;">القسم (${TYPES[type].label})</div>`;
-  }
-  return el;
-}
-
-// دالة لتحليل ملف links.txt وتحويله إلى مكتبة
-function parseLinksTxt(text) {
-  const lib = { songs: {}, lessons: [] };
-  let currentType = null, currentName = null;
-
-  text.split('\n').forEach(line => {
-    line = line.trim();
-    if (!line || line.startsWith('#')) return;
-
-    if (line.startsWith('[أغاني:')) {
-      currentType = 'songs';
-      currentName = line.replace('[أغاني:', '').replace(']', '').trim();
-      lib.songs[currentName] = [];
-    } else if (line.startsWith('[درس:')) {
-      currentType = 'lessons';
-      currentName = line.replace('[درس:', '').replace(']', '').trim();
-      lib.lessons.push({ name: currentName, who: "الشيخ", episodes: [] });
-    } else if (line.includes('|')) {
-      const parts = line.split('|');
-      const title = parts[0].trim();
-      const url = parts[1].trim();
-      
-      if (currentType === 'songs' && lib.songs[currentName]) {
-        lib.songs[currentName].push({ title, url });
-      } else if (currentType === 'lessons' && lib.lessons.length > 0) {
-        lib.lessons[lib.lessons.length - 1].episodes.push({ title, url });
-      }
-    }
-  });
-  return lib;
-}
-
-// دالة تشغيل الصوت
-const audio = new Audio();
-function playAudio(url, title) {
-  document.getElementById('nowTitle').textContent = title;
-  audio.src = url;
-  audio.play().catch(e => alert("تعذر التشغيل: " + e.message));
-}
-</body>
-</html>
+      grid.appendChild(card(idx, lesson.name, lesson.who, () => { state
